@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.775);
+}
+.main{
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.clone{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    color: rgba(205, 134, 63, 0.784);
+    text-decoration: underline;
+}
+.netflix{
+    width: 20vw;
+    transition: all 300ms ease;
+}
+.hover:hover{
+    transform: scale(1.2);
+}
+.independent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
